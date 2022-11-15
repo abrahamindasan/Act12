@@ -1,0 +1,48 @@
+create table users(
+	user_id integer PRIMARY key AUTO_INCREMENT,
+    firstname VARCHAR(255),
+    lastname VARCHAR(255),
+    type VARCHAR(255),
+    username VARCHAR(255),
+    user_passwordVARCHAR(255)
+);
+
+insert into users firstname, lastname, type, username, user_password VALUES(
+	'Jaydee',
+	'Ballaho',
+	'admin',
+	'jaydee',
+	'jaydee'
+);
+
+insert into users firstname, lastname, type, username, password VALUES(
+	'Root',
+	'Root',
+	'admin',
+	'root',
+	'root'
+);
+
+insert into users firstname, lastname, type, username, password VALUES(
+	'Natsu',
+	'Dragneel',
+	'staff',
+	'natsu',
+	'natsu'
+);
+
+insert into users firstname, lastname, type, username, password(
+	'Jaydee',
+	'Ballaho',
+	'admin',
+	'jaydee',
+	'jaydee'
+);
+
+insert into users firstname, lastname, type, username, password(
+	'Jaydee',
+	'Ballaho',
+	'admin',
+	'jaydee',
+	'jaydee'
+);
